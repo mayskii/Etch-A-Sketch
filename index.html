@@ -9,6 +9,30 @@
 
 </head>
 <body>
+    <body>
+        <h1>Etch A Sketch</h1>
+        <div class="container">
+          <div class="controls">
+            <div class="controls-inner">
+              <h3>Controls</h3>
+              <div class="grid-size">16x16</div>
+
+              <input type="range" min="2" max="64" value="16" />
+
+              <div class="color">
+                  <label for="base" class="grid-size">color</label>
+                  <input id="base" type="color" name="base" value="#285392" class="color-marker"/>
+              </div> 
+              
+              <button class="apply">Apply</button>
+              <button class="reset">Reset</button>
+            </div>
+          </div>
+          <div class="grid"></div>
+        </div>
+    
+        <script src="app.js"></script>
+      </body>
     
 </body>
 <script src="main.js"></script>
